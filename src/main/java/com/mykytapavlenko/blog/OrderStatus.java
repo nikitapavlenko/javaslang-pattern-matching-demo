@@ -2,5 +2,7 @@ package com.mykytapavlenko.blog;
 
 public enum OrderStatus {
     PLACED,
-    COMPLETED
+    IN_PROGRESS,
+    COMPLETED,
+    CANCELLED
 }

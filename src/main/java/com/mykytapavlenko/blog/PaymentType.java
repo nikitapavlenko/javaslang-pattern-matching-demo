@@ -1,6 +1,9 @@
 package com.mykytapavlenko.blog;
 
 public enum PaymentType {
-    OFFLINE,
-    ONLINE
+    CREDIT_CARD,
+    CASH,
+    GIFT_CERTIFICATE,
+    PAYPAL_EXPRESS,
+    RETURN_AND_EXCHANGE
 }
