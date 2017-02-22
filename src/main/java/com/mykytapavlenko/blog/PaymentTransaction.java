@@ -29,6 +29,6 @@ public class PaymentTransaction {
 
     @Unapply
     static Tuple2<BigDecimal, PaymentType> PaymentTransaction(PaymentTransaction paymentTransaction) {
-        return Tuple.of(paymentTransaction.getValue(), paymentTransaction.getPaymentType());
+        return Tuple.of(paymentTransaction.value, paymentTransaction.paymentType);
     }
 }
